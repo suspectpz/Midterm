@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <META NAME="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Midterm</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    </head>
+    <body>
+		<h2> User Login</h2>
+        <div class="container">
+        <div class="block">
+            <label>Username: </label>
+            <input type="text" maxlength="12"/>
+        </div>
+        <br>
+        <div class="block">
+            <label>Password: </label>
+            <input type="password" id="password" maxlength="12"/>
+        </div>
+        <br>
+        <div class="block">
+            <label>Confirmation: </label>
+            <input type="password" id="confirm_password" maxlength="12"/>
+        </div>
+        <br>
+        <div class="buttonHolder">
+            <input type="submit" value="Submit" onclick="checkIt()" />
+        </div>
+        <br>
+        <p id="message"></p>
+        </div>
+    </body>
+</html>
