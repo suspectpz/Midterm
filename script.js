@@ -3,7 +3,6 @@ var pass1 = document.getElementById('password');
 var pass2 = document.getElementById('confirm_password');
 
 function checkIt() {
-
   if (user.value.length < 4 || pass1.value.length < 4 || pass2.value.length < 4 || user.value.length > 8 || pass1.value.length > 8 || pass2.value.length > 8) {
   	document.getElementById('message').style.visibility = 'visible';
     document.getElementById('message').style.color = 'red';
